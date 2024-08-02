@@ -2,8 +2,9 @@ import React from "react";
 
 export default function Details() {
   return (
-    <section className="text-white py-5" id="details">
-      <div className="row g-5 me-0">
+    <section className="text-white" id="details">
+      <div className="container">
+      <div className="row g-5">
         <div className="col-md-4">
           <div className="text-center d-flex flex-column row-gap-2">
             <h3 className="text-uppercase m-0 p-0">location</h3>
@@ -39,6 +40,7 @@ export default function Details() {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

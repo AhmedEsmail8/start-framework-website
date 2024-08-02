@@ -6,6 +6,7 @@ nav.navbar{
 
 section#details{
     background-color: #2C3E50 !important;
+    padding-block: 80px;
 }
 
 .nav-link,
@@ -55,6 +56,10 @@ footer{
     width: 80px;
     height: 4px;
     background-color: #fff;
+}
+
+section#portfolio{
+    color: #2C3E50;
 }
 
 .portfolio-card{
