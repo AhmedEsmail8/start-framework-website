@@ -10,6 +10,7 @@ import Start from './components/Start'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
+import Notfound from './components/Notfound'
 
 function App() {
   let routes = createBrowserRouter([
@@ -19,8 +20,11 @@ function App() {
       {path: '/about', element: <About></About>},
       {path: '/portfolio', element: <Portfolio></Portfolio>},
       {path: '/contact', element: <Contact></Contact>},
+      {path: '*', element: <Notfound></Notfound>}
     ]},
-    {path: '*', element: <Tmp></Tmp>}
+    {path: '*', element: <Layout></Layout>, children:[
+      {index:true, element: <Notfound></Notfound>}
+    ]}
   ])
 
   return (

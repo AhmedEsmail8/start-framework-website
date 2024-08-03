@@ -120,6 +120,10 @@ section#contact{
     width: fit-content !important;
 }
 
+.not-found-img{
+    width: 50vw;
+}
+
 /* sm */
 @media (min-width: 576px) {
     .img-overlay img{
