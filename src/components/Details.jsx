@@ -4,7 +4,7 @@ export default function Details() {
   return (
     <section className="text-white" id="details">
       <div className="container">
-      <div className="row g-5">
+      <div className="row gy-5">
         <div className="col-md-4">
           <div className="text-center d-flex flex-column row-gap-2">
             <h3 className="text-uppercase m-0 p-0">location</h3>

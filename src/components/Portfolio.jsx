@@ -19,10 +19,10 @@ export default function Portfolio() {
 
   return (
     <section id="portfolio" className='min-89vh py-5 mt-70px mb-3'>
-        <div className="container text-center">
-            <h1 className='fw-bolder text-uppercase'>portfolio component</h1>
+            <h1 className='fw-bolder text-uppercase text-center'>portfolio component</h1>
             <Headerline color='#2C3E50'></Headerline>
-            <div className="row g-5 mt-1">
+        <div className="container text-center">
+            <div className="row gy-4 mt-1">
                 <div className="col-md-6 col-lg-4">
                     <div className="portfolio-card rounded overflow-hidden" onClick={displayImg}>
                         <img src={port1} alt="" className='w-100'/>

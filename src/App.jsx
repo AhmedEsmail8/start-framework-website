@@ -9,6 +9,7 @@ import Tmp from './components/Tmp'
 import Start from './components/Start'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
 
 function App() {
   let routes = createBrowserRouter([
@@ -17,7 +18,7 @@ function App() {
       {index: true, element: <Start></Start>},
       {path: '/about', element: <About></About>},
       {path: '/portfolio', element: <Portfolio></Portfolio>},
-      {path: '/contact', element: <Start></Start>},
+      {path: '/contact', element: <Contact></Contact>},
     ]},
     {path: '*', element: <Tmp></Tmp>}
   ])
