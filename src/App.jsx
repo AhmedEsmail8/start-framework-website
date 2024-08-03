@@ -24,7 +24,8 @@ function App() {
     {path: '*', element: <Layout></Layout>, children:[
       {index:true, element: <Notfound></Notfound>}
     ]}
-  ])
+  ],
+  { basename: import.meta.env.BASE_URL })
 
   return (
     <RouterProvider router={routes}></RouterProvider>
